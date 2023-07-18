@@ -9,9 +9,8 @@ const App = () => {
       <Header/>        
       <main className="main">
         <Home/>
-      </main>
-    </>
-    
+      </main>      
+    </>    
   )
 }
 
