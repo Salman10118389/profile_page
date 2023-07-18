@@ -1,4 +1,10 @@
-<svg
+import React from 'react'
+
+const ScrollDown = () => {
+  return (
+    <div className="home__scroll">
+        <a href="#" className="home__scroll-button button__flex">
+        <svg
                 width="32px"
                 height="32px"
                 class="home__scroll-mouse"
@@ -33,3 +39,13 @@
                   }}                                      
                 ></path>
               </svg>
+              <span className="home__scroll-name">
+                Scroll Down
+              </span>
+              <i className="uil uil-arrow-down home__scroll-arrow"></i>
+        </a>
+    </div>
+  )
+}
+
+export default ScrollDown
