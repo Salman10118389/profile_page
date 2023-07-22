@@ -20,7 +20,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
 
-                <p className="about__desctription">
+                <p className="about__description">
                     Frontend Developer,I create Website with UI/UX user interface,
                     I have years of experience and many clients are happy with the projects carried out.
                 </p>
