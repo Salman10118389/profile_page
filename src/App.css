@@ -177,6 +177,7 @@ img {
     display: inline-flex;
     align-items: center;
   }
+  
  /* Breakpoints */
 
  /* For Large Device */
@@ -195,10 +196,6 @@ img {
     width: 22px;
     height: 22px;
   }
- }
-
- @media screen and (min-width: 769px) {
-  
  }
 
  @media screen and (max-width: 768px) {    

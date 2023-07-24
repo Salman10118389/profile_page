@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import Skills from './components/skills/Skills';
 import Service from './components/service/Service';
 import Qualifications from './components/Qualifications/Qualifications';
+import Testimonials from './components/testimonials/Testimonials';
 import './App.css';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Skills/>
         <Service/>
         <Qualifications/>
+        <Testimonials/>
       </main>      
     </>    
   )
